@@ -137,6 +137,28 @@ button {
     color: var(--dark);
 }
 
+/* QUOTE */
+.quote-container {
+    display:flex;
+    background-color: var(--grey);
+    flex-direction: column;
+    padding: 80px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: var(--dark);
+    max-width: 600px;
+}
+
+.author {
+    font-weight: 900;
+    color: var(--dark);
+    text-align: end;
+    
+}
+
 /* FOOTER */
 
 .footer {
