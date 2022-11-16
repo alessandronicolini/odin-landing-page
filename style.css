@@ -128,7 +128,7 @@ button {
     border-width: 2px;
     border-style: solid;
     border-color: var(--light-blue);
-    border-radius: 15%;
+    border-radius: 5mm;
     flex-shrink: 0;
 }
 
@@ -142,14 +142,13 @@ button {
     display:flex;
     background-color: var(--grey);
     flex-direction: column;
-    padding: 80px;
+    padding: 80px 400px;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     color: var(--dark);
-    max-width: 600px;
 }
 
 .author {
@@ -159,6 +158,38 @@ button {
     
 }
 
+/* CALL TO ACTION */
+.call2action-container {
+    padding: 80px 120px;
+}
+
+.call2action-box {
+    background: var(--light-blue);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    color: var(--white);
+    border-radius: 5mm;
+    align-items: center;
+}
+
+.call2action-header{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.call2action-content {
+    color: var(--grey);
+}
+
+.call2action-button {
+    border-width: 1px;
+    border-color: var(--white);
+    border-style: solid;
+    border-radius: 2mm;
+    width: auto;
+    height: 40px;
+}
 /* FOOTER */
 
 .footer {
