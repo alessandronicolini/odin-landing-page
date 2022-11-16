@@ -24,10 +24,16 @@ body {
 }
 
 .logo {
+    display: flex;
     color: var(--white);
     font-size: 24px;
     font-weight: bold;
+    max-width: 40px;
+    background: var(--white);
+    padding: 3px;
+    border-radius: 15%;
 }
+
 
 .description {
     display: flex;
